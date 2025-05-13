@@ -5,7 +5,8 @@ on:
     - cron: "*/2 * * * *"
 
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - name: 'Hello World'
-      run: echo hello world ${date}
+  hello-world
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Hello World'
+        run: echo hello world ${date}
