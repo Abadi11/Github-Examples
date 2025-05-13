@@ -1,11 +1,11 @@
-name: Schedule Run
+name: 'Schedule Run'
 
 on:
   Schedule:
     - cron: "*/2 * * * *"
 
 jobs:
-  run: ubuntu-latest
+  run: 'ubuntu-latest'
   steps:
-    - name: Hello World
+    - name: 'Hello World'
       run: echo hello world ${date}
