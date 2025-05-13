@@ -1,4 +1,4 @@
-name: 'schedule Run'
+name: 'sech Run'
 
 on:
   Schedule:
