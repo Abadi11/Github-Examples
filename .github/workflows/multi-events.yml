@@ -15,4 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello World
-        run: echo "Hello World"
+        run: | 
+          echo "REF: $GITHUB_REF"
+          echo "JOB_ID: $GITHUB_JOB"
+          echo "ACTION: $GITHUB_ACTION"
+          echo "ACTOR: $GITHUB_ACTOR"
