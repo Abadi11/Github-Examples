@@ -1,7 +1,7 @@
 name: 'sech Run'
 
 on:
-  Schedule:
+  schedule:
     - cron: "*/2 * * * *"
 
 jobs:
