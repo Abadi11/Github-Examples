@@ -24,6 +24,7 @@ jobs:
           echo "::group:: Welcoming Message"
           echo "This is"
           echo "${{steps.output_step.outputs.message}}" $NAME
+          echo "::debug::This is a debug step"
           echo "Thanks for coming"
           echo "::endgroup::"
 
