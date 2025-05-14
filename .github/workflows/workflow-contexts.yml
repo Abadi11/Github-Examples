@@ -42,7 +42,7 @@ jobs:
     second_dump_cotexts_to_log:
         runs-on: ubuntu-latest
         steps:
-            - name: Dump Jobs Context
+            - name: Dump Job Context
               env:
-                JOBS_CONTEXT: ${{toJson(jobs)}}
+                JOBS_CONTEXT: ${{toJson(job)}}
               run: echo $JOBS_CONTEXT
