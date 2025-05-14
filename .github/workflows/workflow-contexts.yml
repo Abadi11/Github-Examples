@@ -40,6 +40,7 @@ jobs:
               run: echo $MATRIX_CONTEXT
 
     second_dump_cotexts_to_log:
+        needs: dump_contexts_to_log
         runs-on: ubuntu-latest
         steps:
             - name: Dump Job Context
