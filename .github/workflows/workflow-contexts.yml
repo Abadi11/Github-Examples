@@ -38,3 +38,11 @@ jobs:
               env:
                 MATRIX_CONTEXT: ${{toJson(matrix)}}
               run: echo $MATRIX_CONTEXT
+
+    second_dump_cotexts_to_log:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Dump Jobs Context
+              env:
+                JOBS_CONTEXT: ${{toJson(jobs)}}
+              run: echo $JOBS_CONTEXT
