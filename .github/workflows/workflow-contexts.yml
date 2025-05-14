@@ -48,4 +48,4 @@ jobs:
               run: echo $JOBS_CONTEXT
             
             - name: Hello Github Action
-              run: echo "${{github.action}}"
+              run: echo Hello "${{github.action}}"
