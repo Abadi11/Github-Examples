@@ -46,3 +46,6 @@ jobs:
               env:
                 JOBS_CONTEXT: ${{toJson(job)}}
               run: echo $JOBS_CONTEXT
+            
+            - name: Hello Github Action
+              run: echo "${{github.action}}"
