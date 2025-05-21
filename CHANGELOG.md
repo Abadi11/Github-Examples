@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.1](https://github.com/Abadi11/Github-Examples/compare/v1.1.0...v1.1.1) (2025-05-21)
+
+
+### Bug Fixes
+
+* fix ([25e6a40](https://github.com/Abadi11/Github-Examples/commit/25e6a4035926df3b34190944c6bb064413075bb3))
+* fix ([8a0f186](https://github.com/Abadi11/Github-Examples/commit/8a0f186fcce2d84680e76b599072e65c910683a0))
+
 ## [1.1.0](https://github.com/Abadi11/Github-Examples/compare/v1.0.0...v1.1.0) (2025-05-21)
 
 
