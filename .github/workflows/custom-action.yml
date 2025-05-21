@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: Abadi11/demo-action@v1.0.0
+        uses: Abadi11/demo-action@v1.0.1
         with:
           name: 'Abadi'
       # Use the output from the `hello` step
