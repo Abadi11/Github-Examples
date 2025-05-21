@@ -1,0 +1,24 @@
+name: Validate PR Title
+
+on:
+    pull_request:
+        types:
+            - opened
+            - edited
+            - reopened
+
+jobs:
+    validate-pr:
+        runs-on: ubuntu-latest
+        permissions:
+            pull-requests: read
+        
+        steps:
+            - name: Checkout To the Repo
+              uses: actions/checkout@v4
+
+            - name: Validate PR Title
+              env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              uses: amannn/action-semantic-pull-request@v5
+
